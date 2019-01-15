@@ -10,7 +10,7 @@ import LoginForm from './components/LoginForm';
 
 class App extends Component {
   componentWillMount() {
-    console.log(firebaseConfig);
+    //console.log(firebaseConfig);
     firebase.initializeApp(firebaseConfig);
   }
 
